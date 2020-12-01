@@ -1,0 +1,94 @@
+.header-section {
+    width: 100%;
+    color: white;
+   margin-top: 0px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	height: 100%;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.grid-left{
+	grid-column: 1;
+}
+
+.grid-right{
+	grid-column: 2;
+	background: url("../img/cafe-login.jpg") no-repeat center;
+	-webkit-background-size: cover;
+}
+
+.Menu-cajero {
+	margin: 10rem 10rem 0 10rem;
+}
+
+.Menu-cajero p{
+	margin-top: 0;
+	margin-bottom: 5rem;
+}
+
+.Menu-cajero input{
+	display: block;
+	margin-bottom: 1.5rem;
+}
+
+.Botones{
+			display: block;
+			margin-bottom: 1.5rem;
+			text-decoration: none;
+	    padding: 10px;
+	    font-weight: 600;
+	    font-size: 1rem;
+			height: 3.4rem;
+	    color:  white;
+	    background-color: rgb(62, 76, 89);
+	    border-radius: 6px;
+	    border: 0;
+			opacity: .9;
+			transition: 0.3s
+}
+.Botones:hover{
+	cursor: pointer;
+	opacity: 20;
+ }
+
+.grid{
+	margin-top: 3rem;
+
+
+}
+
+form a{
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url('../fonts/Poppins-Regular.ttf');
+}
+
+body {
+	font-family: Poppins;
+}
+
+img {
+	width: 7rem;
+	float:left;
+}
+.contenedor-header {
+	padding-top: 1rem;
+}
